@@ -1,9 +1,11 @@
 # PokerServerClient
 
 # Protocol
-Once the transmission channel is established, the player sends a START command. The server send the STACK command with the amount in coins of the player table stakes.Next the player sends an ANTE_OK message for accepting the cards. The server reply with a DEALER message telling whether the player is the dealer or not of the game, following a HAND command with the players 5 cards.Then a betting phase starts followed by a drawing phase (if noone has fold) and a second betting phase. If noone folds a showdowns occurs.
+Once the transmission channel is established, the player sends a START command. The server send ANTE and STACK commands with the amount in coins of the player table stakes and the amount of initial bet.Next the player sends an ANTE_OK message for accepting the cards. The server reply with a DEALER message telling whether the player is the dealer or not of the game, followed by a HAND command with the players 5 cards. Then a betting phase starts followed by a drawing phase (if noone has folded). After a another betting phase, if noone folds a showdowns occurs.
 
-START: With this command the client can start a game with the server, An ID is needed. After this message an ANTE and STACKS message from the server are expected. 
+START: With this command the client can start a game with the server, An ID is required. After this message an ANTE and STACKS message from the server are expected. 
+
+ANTE: this commands communicates the initial bet's amount of money.
 
 STACKS   This command informs to the player how many stakes there are in the   table. The first number indicates client chips while the second   indicates server clients. After this message, an ANTEOK or QUIT message is expected.   
 
@@ -13,7 +15,7 @@ QUIT: After this command the communication with the server is closed.
 
 DEALER: This command informs to the player whether the client is the dealer (1) or not (0). The dealer changes in every round. The first round the dealer is randomly chosen. After this message, the server sends a HAND message.
 
-HAND   This command sends 5 cards to the player. After this message, if the client player is the dealer, the server sends a PASS or BET message. Otherwise, a PASS or BET message is expected from the client.
+HAND   This command sends 5 cards to the client. After this message, if the client player is the dealer, the server sends a PASS or BET message. Otherwise, a PASS or BET message is expected from the client.
 
 BET:   This command is used for betting an amount of money. After this command a CALL, FOLD or RISE message is expected.
 
@@ -29,7 +31,7 @@ DRAW: this command is used to swapping cards from client's hand for new ones. Af
 
 DRAW_SERVER: this command sends the new cards that client asked for.
 
-SHOWNDOWN:
+SHOWNDOWN: after this command both hands are shown and bet money is distributed.
 
  
 START:        STRT<SP><ID>
@@ -41,7 +43,8 @@ CARD: CARD<SP><CARD>
 CHECK:        CHCK        
 BET:        BET_        
 CALL:        CALL        
-FOLD:        FOLD        
+FOLD:        FOLD
+ 
 SHOWNDOWN:        SHOW<SP><CARD>        
 <SP> ::= ' ' Space character  
 <ID> ::= Over network integer positive number. 
