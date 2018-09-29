@@ -1,0 +1,822 @@
+C: strt 234
+S: ante 30
+S: stks 500 500
+C: anok
+S: deal 1
+S: HAND 3D 2S JH 7H QD
+S: pass
+C: bet_ 40
+S: fold
+S: stks 530 470
+C: anok
+S: deal 0
+S: HAND 2C AC 5D KC 6C
+C: pass
+S: pass
+C: draw '2' 2c 5d
+S: drws 9C JD 4
+C: pass
+S: pass
+S: show 4C 3H 4S 4H 9H
+S: stks 500 500
+C: anok
+S: deal 1
+S: HAND 3S 9C JC 10H 3C
+S: bet_ 74
+C: call
+C: draw '2' 3s jc
+S: drws 4H QH 3
+S: pass
+C: pass
+S: show JD AD 10C QD AC
+S: stks 396 604
+C: anok
+S: deal 0
+S: HAND 3C 8D QC 7D 4D
+C: bet_ 40
+S: rise 89
+C: call
+C: draw '2' 3c qc
+S: drws AC QS 2
+C: bet_ 40
+S: call
+S: show 5H 10C 2S JD 3D
+S: stks 595 405
+C: anok
+S: deal 1
+S: HAND 7S 3C QS QD 3H
+S: pass
+C: pass
+C: draw '2' 7s qs
+S: drws QH 2C 0
+S: pass
+C: bet_ 40
+S: rise 25
+C: rise 50
+S: call
+S: show 2H 9D 2S AH AS
+S: stks 450 550
+C: anok
+S: deal 0
+S: HAND AH 2C 7C QS JC
+C: bet_ 40
+S: fold
+S: stks 480 520
+C: anok
+S: deal 1
+S: HAND AS 9C 7H QH 10H
+S: pass
+C: pass
+C: draw '2' as 7h
+S: drws QS QC 3
+S: bet_ 45
+C: fold
+S: stks 450 550
+C: anok
+S: deal 0
+S: HAND 2S QD 7C 6D 6C
+C: bet_ 40
+S: fold
+S: stks 480 520
+C: anok
+S: deal 1
+S: HAND 9S 9H 8D 10H 2D
+S: pass
+C: bet_ 40
+S: fold
+S: stks 510 490
+C: anok
+S: deal 0
+S: HAND AS 10D 8C 5C 3H
+C: bet_ 40
+S: fold
+S: stks 540 460
+C: anok
+S: deal 1
+S: HAND 8D QS 8H 5C 6C
+S: pass
+C: pass
+C: draw '2' 8d 8h
+S: drws JH 2S 1
+S: pass
+C: bet_ 40
+S: fold
+S: stks 570 430
+C: anok
+S: deal 0
+S: HAND 9H 6D KH QH QD
+C: bet_ 40
+S: rise 93
+C: rise 50
+S: fold
+S: stks 733 267
+C: anok
+S: deal 1
+S: HAND 3H 2H 3C JD QC
+S: bet_ 26
+C: rise 50
+S: fold
+S: stks 789 211
+C: anok
+S: deal 0
+S: HAND 8S 9D 9C 5H JD
+C: bet_ 40
+S: fold
+S: stks 819 181
+C: anok
+S: deal 1
+S: HAND KC JH 2C 8H 8D
+S: pass
+C: pass
+C: draw '2' kc 2c
+S: drws QH 3H 3
+S: pass
+C: bet_ 40
+S: fold
+S: stks 849 151
+C: anok
+S: deal 0
+S: HAND 3D 10D 3C 2D 4D
+C: bet_ 40
+S: fold
+S: stks 879 121
+C: anok
+S: deal 1
+S: HAND 10S JH 8D KD 2S
+S: pass
+C: pass
+C: draw '2' 10s 8d
+S: drws 8S 4D 1
+S: pass
+C: pass
+S: show 2D 3S 5D 4H 8H
+S: stks 909 91
+C: anok
+S: deal 0
+S: HAND 6C 5C 2D 8C QS
+C: pass
+S: bet_ 6
+C: fold
+S: stks 879 121
+C: anok
+S: deal 1
+S: HAND 9C 6S QC 5C AC
+S: bet_ 13
+C: rise 50
+S: fold
+S: stks 922 78
+C: anok
+S: deal 0
+S: HAND 9S 6S 8H 4S 9H
+C: pass
+S: pass
+C: draw '2' 9s 8h
+S: drws AD AH 3
+C: pass
+S: pass
+S: show 3D 6C QC JC 10D
+S: stks 952 48
+C: anok
+S: deal 1
+S: HAND 3H 10H 9S AS 6C
+S: bet_ 12
+C: call
+C: draw '2' 3h 9s
+S: drws 8S 4H 4
+S: pass
+C: bet_ 40
+S: call
+S: show KS 6S 10C QS 5S
+S: stks 1000 1000
+C: anok
+S: deal 0
+S: HAND 6C 5S KH JH 2H
+C: bet_ 40
+S: fold
+S: stks 1030 970
+C: anok
+S: deal 1
+S: HAND 4D 10S KH JH AD
+S: pass
+C: bet_ 40
+S: fold
+S: stks 1060 940
+C: anok
+S: deal 0
+S: HAND 9C QH 7H 7S 9S
+C: bet_ 40
+S: fold
+S: stks 1090 910
+C: anok
+S: deal 1
+S: HAND 8H JS QC 5S 3D
+S: pass
+C: bet_ 40
+S: fold
+S: stks 1120 880
+C: anok
+S: deal 0
+S: HAND KS AC QC 3S 6H
+C: bet_ 40
+S: fold
+S: stks 1150 850
+C: anok
+S: deal 1
+S: HAND 7S 4D AS 2S QD
+S: pass
+C: pass
+C: draw '2' 7s as
+S: drws KC KS 2
+S: pass
+C: pass
+S: show 5S JC 8S 3S 3C
+S: stks 1180 820
+C: anok
+S: deal 0
+S: HAND JC 10C 8C 2S 8D
+C: bet_ 40
+S: rise 56
+C: rise 50
+S: call
+C: draw '2' jc 8c
+S: drws 9S 2D 4
+C: pass
+S: pass
+S: show 6S 3S KC 2H AS
+S: stks 1356 644
+C: anok
+S: deal 1
+S: HAND KC KD 10H JS 3H
+S: pass
+C: pass
+C: draw '2' kc 10h
+S: drws 4S QC 3
+S: pass
+C: bet_ 40
+S: fold
+S: stks 1386 614
+C: anok
+S: deal 0
+S: HAND 4S 2S 10H 4C 6C
+C: bet_ 40
+S: call
+C: draw '2' 4s 10h
+S: drws 6H AH 3
+C: pass
+S: pass
+S: show QD 2C JS 8D KD
+S: stks 1456 544
+C: anok
+S: deal 1
+S: HAND 3S 3D 5D 8S 6C
+S: pass
+C: pass
+C: draw '2' 3s 5d
+S: drws 8D 2D 0
+S: pass
+C: bet_ 40
+S: call
+S: show QS 9S JS AH 5C
+S: stks 1526 474
+C: anok
+S: deal 0
+S: HAND 10H 5C 7S 8C 9S
+C: bet_ 40
+S: fold
+S: stks 1556 444
+C: anok
+S: deal 1
+S: HAND 6C 9D KC 6H 9C
+S: bet_ 52
+C: call
+C: draw '2' 6c kc
+S: drws JH AH 3
+S: pass
+C: pass
+S: show QH 7S QC JD JS
+S: stks 1474 526
+C: anok
+S: deal 0
+S: HAND 8C AS KC KS 6S
+C: pass
+S: pass
+C: draw '2' 8c kc
+S: drws QD 7C 4
+C: pass
+S: bet_ 38
+C: fold
+S: stks 1444 556
+C: anok
+S: deal 1
+S: HAND 10H 5S QD 9H 7S
+S: bet_ 84
+C: call
+C: draw '2' 10h qd
+S: drws QC KH 3
+S: pass
+C: pass
+S: show 8D 9S 4C 4S KD
+S: stks 1330 670
+C: anok
+S: deal 0
+S: HAND 2S 9C 3S JS 10D
+C: pass
+S: pass
+C: draw '2' 2s 3s
+S: drws 8D 8C 2
+C: bet_ 40
+S: fold
+S: stks 1360 640
+C: anok
+S: deal 1
+S: HAND 2S 7D 6H 9C 6S
+S: pass
+C: pass
+C: draw '2' 2s 6h
+S: drws 3H 4C 3
+S: pass
+C: bet_ 40
+S: fold
+S: stks 1390 610
+C: anok
+S: deal 0
+S: HAND JS 10D 6C 10H QS
+C: bet_ 40
+S: rise 44
+C: call
+C: draw '2' js 6c
+S: drws 9C 7C 3
+C: bet_ 40
+S: fold
+S: stks 1504 496
+C: anok
+S: deal 1
+S: HAND QC 10D 6C 2C 9C
+S: bet_ 50
+C: fold
+S: stks 1474 526
+C: anok
+S: deal 0
+S: HAND 7C 10C 7H 8S QD
+C: bet_ 40
+S: fold
+S: stks 1504 496
+C: anok
+S: deal 1
+S: HAND 4C 5H 9H KD 5C
+S: pass
+C: pass
+C: draw '2' 4c 9h
+S: drws 6H AH 5
+S: pass
+C: bet_ 40
+S: fold
+S: stks 1534 466
+C: anok
+S: deal 0
+S: HAND 10S 4H 7H 2C 6D
+C: bet_ 40
+S: fold
+S: stks 1564 436
+C: anok
+S: deal 1
+S: HAND 9H JD 2S 5H 3H
+S: pass
+C: pass
+C: draw '2' 9h 2s
+S: drws 4S JS 2
+S: pass
+C: pass
+S: show KC 9C JH 10S 2D
+S: stks 1594 406
+C: anok
+S: deal 0
+S: HAND 6C AC 5D JH 3C
+C: pass
+S: pass
+C: draw '2' 6c 5d
+S: drws 8D KD 3
+C: bet_ 40
+S: fold
+S: stks 1624 376
+C: anok
+S: deal 1
+S: HAND 8S 2H JH 10S 6C
+S: pass
+C: bet_ 40
+S: fold
+S: stks 1654 346
+C: anok
+S: deal 0
+S: HAND 5C 7H AH 8C 4H
+C: pass
+S: pass
+C: draw '2' 5c ah
+S: drws 10D 7S 3
+C: pass
+S: bet_ 46
+C: call
+S: show 4D QS JC 5H JS
+S: stks 1578 422
+C: anok
+S: deal 1
+S: HAND 4S 3H 2S 8C QH
+S: bet_ 58
+C: call
+C: draw '2' 4s 2s
+S: drws 9H JS 1
+S: pass
+C: pass
+S: show 6D AD JD 3D 6H
+S: stks 1490 510
+C: anok
+S: deal 0
+S: HAND 6C 9C 9H AS JC
+C: bet_ 40
+S: call
+C: draw '2' 6c 9h
+S: drws 10S 4D 5
+C: pass
+S: pass
+S: show 4H 7H 10D 2S 9S
+S: stks 1560 440
+C: anok
+S: deal 1
+S: HAND 7H 5C QC 9H JC
+S: pass
+C: bet_ 40
+S: fold
+S: stks 1590 410
+C: anok
+S: deal 0
+S: HAND KC 2D KD KH 8H
+C: pass
+S: pass
+C: draw '2' kc kd
+S: drws QC 4H 3
+C: pass
+S: bet_ 22
+C: fold
+S: stks 1560 440
+C: anok
+S: deal 1
+S: HAND 6C 9C AS JD 7D
+S: pass
+C: bet_ 40
+S: fold
+S: stks 1590 410
+C: anok
+S: deal 0
+S: HAND 4D 6H 6D 7C 10C
+C: pass
+S: pass
+C: draw '2' 4d 6d
+S: drws 10H 6S 2
+C: pass
+S: pass
+S: show 9S 8S KS 8H JH
+S: stks 1620 380
+C: anok
+S: deal 1
+S: HAND 6C AS KC 8C 6D
+S: pass
+C: bet_ 40
+S: fold
+S: stks 1650 350
+C: anok
+S: deal 0
+S: HAND AH 7C 10S 10H 10D
+C: pass
+S: pass
+C: draw '2' ah 10s
+S: drws 6H JC 2
+C: pass
+S: pass
+S: show 6D 3H JH 9S 3S
+S: stks 1680 320
+C: anok
+S: deal 1
+S: HAND 10D 2S QC 3S 8S
+S: pass
+C: bet_ 40
+S: rise 174
+C: rise 50
+S: fold
+S: stks 1924 76
+C: anok
+S: deal 0
+S: HAND 7D 10C 9S 10S 5D
+C: pass
+S: bet_ 3
+C: fold
+S: stks 1894 106
+C: anok
+S: deal 1
+S: HAND 4S 4D AH AS 2S
+S: pass
+C: pass
+C: draw '2' 4s ah
+S: drws 5S 5D 3
+S: pass
+C: bet_ 40
+S: fold
+S: stks 1924 76
+C: anok
+S: deal 0
+S: HAND JH 2S 6H 5D KD
+C: bet_ 40
+S: fold
+S: stks 1954 46
+C: anok
+S: deal 1
+S: HAND 7H 5S 9H 4C AS
+S: pass
+C: pass
+C: draw '2' 7h 9h
+S: drws AH AC 3
+S: pass
+C: bet_ 40
+S: fold
+S: stks 1984 1984
+C: anok
+S: deal 0
+S: HAND 3S KD 3H QS 5S
+C: pass
+S: pass
+C: draw '2' 3s 3h
+S: drws KC JS 3
+C: pass
+S: bet_ 199
+C: call
+S: show 9H 7H 8D 7C KH
+S: stks 2213 1755
+C: anok
+S: deal 1
+S: HAND AS 3C QD 6S 3S
+S: bet_ 241
+C: call
+C: draw '2' as qd
+S: drws AC 7C 4
+S: pass
+C: bet_ 40
+S: call
+S: show 2H 9C 8S 7S 7D
+S: stks 1902 2066
+C: anok
+S: deal 0
+S: HAND 3S AD 7C 4H 5S
+C: pass
+S: bet_ 311
+C: call
+C: draw '2' 3s 7c
+S: drws 8H JC 2
+C: bet_ 40
+S: fold
+S: stks 2243 1725
+C: anok
+S: deal 1
+S: HAND 10D 5C 2D 2C 6S
+S: bet_ 457
+C: fold
+S: stks 2213 1755
+C: anok
+S: deal 0
+S: HAND 6S 4H 3C 8D 9H
+C: pass
+S: bet_ 110
+C: rise 50
+S: fold
+S: stks 2353 1615
+C: anok
+S: deal 1
+S: HAND AH 7D JS KC JD
+S: bet_ 167
+C: fold
+S: stks 2323 1645
+C: anok
+S: deal 0
+S: HAND JH 5S 3C KC 9C
+C: pass
+S: pass
+C: draw '2' jh 3c
+S: drws 4S 10D 2
+C: pass
+S: pass
+S: show 2H 4D 8S 8D 10H
+S: stks 2293 1675
+C: anok
+S: deal 1
+S: HAND 6D 2D 8C 9H 3D
+S: bet_ 155
+C: call
+C: draw '2' 6d 8c
+S: drws 7D 3C 3
+S: bet_ 559
+C: fold
+S: stks 2108 1860
+C: anok
+S: deal 0
+S: HAND 8C 2S JC 9H 10D
+C: bet_ 40
+S: fold
+S: stks 2138 1830
+C: anok
+S: deal 1
+S: HAND 8D QS AD 2H QD
+S: bet_ 493
+C: fold
+S: stks 2108 1860
+C: anok
+S: deal 0
+S: HAND AH 6D 7H 8C 8S
+C: pass
+S: pass
+C: draw '2' ah 7h
+S: drws 9S 5C 2
+C: pass
+S: pass
+S: show 4S QH JH 4C 9C
+S: stks 2138 1830
+C: anok
+S: deal 1
+S: HAND AH 4S 10C 2C 10S
+S: pass
+C: pass
+C: draw '2' ah 10c
+S: drws 4C 6S 2
+S: pass
+C: pass
+S: show 8S 10D JH 7H 6H
+S: stks 2168 1800
+C: anok
+S: deal 0
+S: HAND 7S 5C 3S 4S 3D
+C: bet_ 40
+S: fold
+S: stks 2198 1770
+C: anok
+S: deal 1
+S: HAND AS 10S 8C 3C 6D
+S: pass
+C: bet_ 40
+S: fold
+S: stks 2228 1740
+C: anok
+S: deal 0
+S: HAND 6H KS JH 5D 7C
+C: pass
+S: pass
+C: draw '2' 6h jh
+S: drws KD 2S 4
+C: bet_ 40
+S: fold
+S: stks 2258 1710
+C: anok
+S: deal 1
+S: HAND 5H 5D KD 9C JC
+S: pass
+C: pass
+C: draw '2' 5h kd
+S: drws 3C 8H 3
+S: bet_ 275
+C: fold
+S: stks 2228 1740
+C: anok
+S: deal 0
+S: HAND QC AC JD 5S JC
+C: pass
+S: pass
+C: draw '2' qc jd
+S: drws KC 3S 2
+C: bet_ 40
+S: fold
+S: stks 2258 1710
+C: anok
+S: deal 1
+S: HAND 10H 6C 5H QC 8C
+S: bet_ 1141
+C: call
+C: draw '2' 10h 5h
+S: drws 4C JD 2
+S: bet_ 399
+C: fold
+S: stks 1087 2881
+C: anok
+S: deal 0
+S: HAND QD 4D 6C 5D 6D
+C: pass
+S: pass
+C: draw '2' qd 6c
+S: drws QC 9S 1
+C: bet_ 40
+S: fold
+S: stks 1117 2851
+C: anok
+S: deal 1
+S: HAND AH QH 4D 8S QD
+S: pass
+C: bet_ 40
+S: fold
+S: stks 1147 2821
+C: anok
+S: deal 0
+S: HAND 5H 5D 7S 6D QD
+C: bet_ 40
+S: fold
+S: stks 1177 2791
+C: anok
+S: deal 1
+S: HAND 8H 7D 3H AH 6C
+S: pass
+C: pass
+C: draw '2' 8h 3h
+S: drws AD 6D 2
+S: pass
+C: pass
+S: show 6H 6S 9H 4D 2C
+S: stks 1207 2761
+C: anok
+S: deal 0
+S: HAND KH 4H 10C JS 8C
+C: bet_ 40
+S: fold
+S: stks 1237 2731
+C: anok
+S: deal 1
+S: HAND 6H 7H 4D 7D JS
+S: pass
+C: bet_ 40
+S: fold
+S: stks 1267 2701
+C: anok
+S: deal 0
+S: HAND JD JC 2S AD 9S
+C: pass
+S: pass
+C: draw '2' jd 2s
+S: drws 7S 5S 4
+C: pass
+S: bet_ 225
+C: call
+S: show 8S 7C KS QD QC
+S: stks 1012 2956
+C: anok
+S: deal 1
+S: HAND AC 4S 9H QC 7H
+S: bet_ 251
+C: call
+C: draw '2' ac 9h
+S: drws 5H 10C 3
+S: pass
+C: pass
+S: show 9C JD AS 6C KS
+S: stks 731 3237
+C: anok
+S: deal 0
+S: HAND 6H 2C 4C 9C 7S
+C: pass
+S: pass
+C: draw '2' 6h 4c
+S: drws JD KS 3
+C: bet_ 40
+S: fold
+S: stks 761 3207
+C: anok
+S: deal 1
+S: HAND 7H 2C 6H 2S 7C
+S: pass
+C: bet_ 40
+S: fold
+S: stks 791 3177
+C: anok
+S: deal 0
+S: HAND 3H 10D 3D KD QD
+C: pass
+S: bet_ 396
+C: rise 50
+S: fold
+S: stks 1217 2751
+C: anok
+S: deal 1
+S: HAND 4D 2C AC 5H KC
+S: bet_ 163
+C: rise 50
+S: fold
+S: stks 1410 2558
+C: anok
+S: deal 0
+S: HAND 5D KS 5S KC 6D
+C: bet_ 40
+S: rise 1076
+C: fold
+S: stks 1340 2628
+C: anok
+S: deal 1
+S: HAND 3C 5H 9S 4S JD
+S: bet_ 1924
+C: rise 50
+S: erro error, incorrect rise
+C: call
+C: draw '2' 3c 9s
+S: drws 7H 5S 2
+S: pass
