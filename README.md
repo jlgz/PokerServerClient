@@ -33,21 +33,35 @@ DRAW_SERVER: this command sends the new cards that client asked for.
 
 SHOWNDOWN: after this command both hands are shown and bet money is distributed.
 
- 
-START:        STRT<SP><ID>
-STAKES:        STKS<SP><CHIPS><SP><CHIPS>
-ANTE_OK:        ANOK
-QUIT:        QUIT
-DEALER:        DEAL<SP>'0'|'1'        
-CARD: CARD<SP><CARD>        
-CHECK:        CHCK        
-BET:        BET_        
-CALL:        CALL        
-FOLD:        FOLD
- 
-SHOWNDOWN:        SHOW<SP><CARD>        
-<SP> ::= ' ' Space character  
-<ID> ::= Over network integer positive number. 
-<CARD> ::= 'K' | 'Q' | 'J' |  
-<CHIPS> ::= Over network integer positive number.
+Command Syntax
+
+   The commands consist of a command code, sometimes followed by a space
+   and argument fields. Command codes are four alphabetic characters.
+   Upper and lower case alphabetic characters are to be treated
+   identically. Thus, any of the following may represent the START
+   command:
+
+   STRT    Strt    strt    StRt    StRT
+
+   This also applies to any symbols representing parameter values.
+   Argument field is composed for one or several arguments separated by
+   a space character. 
+   
+   START:        STRT<SP><INT>
+   STAKES:       STKS<SP><INT><SP><INT>
+   ANTE:         ANTE<SP><INT>
+   ANTE_OK:      ANOK
+   QUIT:         QUIT
+   DEALER:       DEAL<SP>'0'|'1'        
+   HAND:         HAND<SP><CARD><SP><CARD><SP><CARD><SP><CARD><SP><CARD>        
+   PASS:         PASS        
+   BET:          BET_<SP><CHIPS>        
+   CALL:         CALL        
+   FOLD:         FOLD
+   DRAW:         DRAW<SP><INT><SP><CARD><SP><CARD>...
+   DRAW_SERVER:  DRWS<SP><CARD><SP>CARD><SP>...<INT> 
+   SHOWNDOWN:        SHOW<SP><CARD>        
+   <SP> ::= ' ' Space character  
+   <INT> ::= integer positive number. 
+   <CARD> ::= 
  
