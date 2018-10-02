@@ -77,11 +77,9 @@ Command Syntax
  
    SHOWNDOWN:    SHOW<SP><CARD><SP><CARD><SP><CARD><SP><CARD><SP><CARD>
    
-   <SP> ::= ' ' Space character
-
-   <INT> ::= integer positive number.
-
-   <CARD> ::= <RANK><SUIT>
+   <SP> = ' ' space character.
+   <INT> = integer positive number.
+   <CARD> = <RANK><SUIT>
  
    RANKS: 'A' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | 10' | 'J' | 'Q' | 'K'
 
