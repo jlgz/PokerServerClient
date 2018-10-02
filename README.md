@@ -60,7 +60,7 @@ Command Syntax
    CALL:         CALL        
    FOLD:         FOLD
    DRAW:         DRAW<SP><INT><SP><CARD><SP><CARD>...
-   DRAW_SERVER:  DRWS<SP><CARD><SP>CARD><SP>...<INT> 
+   DRAW_SERVER:  DRWS<SP><CARD><SP>CARD><SP>...<INT>
    SHOWNDOWN:    SHOW<SP><CARD><SP><CARD><SP><CARD><SP><CARD><SP><CARD>        
    
    <SP> ::= ' ' Space character  
