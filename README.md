@@ -47,39 +47,39 @@ Command Syntax
    Argument field is composed for one or several arguments separated by
    a space character. 
    
-   START:        STRT<SP><INT>
+   START:        STRT(SP)(INT)
  
-   STAKES:       STKS<SP><INT><SP><INT>
+   STAKES:       STKS(SP)(INT)(SP)(INT)
  
-   ANTE:         ANTE<SP><INT>
+   ANTE:         ANTE(SP)(INT)
  
    ANTE_OK:      ANOK
    
    QUIT:         QUIT
    
-   DEALER:       DEAL<SP>'0'|'1'  
+   DEALER:       DEAL(SP)'0'|'1'  
  
-   HAND:         HAND<SP><CARD><SP><CARD><SP><CARD><SP><CARD><SP><CARD>
+   HAND:         HAND(SP)(CARD)(SP)(CARD)(SP)(CARD)(SP)(CARD)(SP)(CARD)
  
    PASS:         PASS
    
-   BET:          BET_<SP><INT>
+   BET:          BET_(SP)(INT)
  
-   RISE:         RISE<SP><INT>
+   RISE:         RISE(SP)(INT)
  
    CALL:         CALL
    
    FOLD:         FOLD
    
-   DRAW:         DRAW<SP><INT><SP><CARD><SP><CARD>...
+   DRAW:         DRAW(SP)(INT)(SP)(CARD)(SP)(CARD)...
  
-   DRAW_SERVER:  DRWS<SP><CARD><SP>CARD><SP>...<INT>
+   DRAW_SERVER:  DRWS(SP)(CARD)(SP)CARD)(SP)...(INT)
  
-   SHOWNDOWN:    SHOW<SP><CARD><SP><CARD><SP><CARD><SP><CARD><SP><CARD>
+   SHOWNDOWN:    SHOW(SP)(CARD)(SP)(CARD)(SP)(CARD)(SP)(CARD)(SP)(CARD)
    
-   <SP> = ' ' space character.
-   <INT> = integer positive number.
-   <CARD> = <RANK><SUIT>
+   (SP) = ' ' space character.
+   (INT) = integer positive number.
+   (CARD) = (RANK)(SUIT)
  
    RANKS: 'A' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | 10' | 'J' | 'Q' | 'K'
 
