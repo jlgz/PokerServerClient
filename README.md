@@ -29,7 +29,7 @@ FOLD:   This command is used when the other player has betted an you don't want 
  
 DRAW: this command is used to swapping cards from client's hand for new ones. After this command a DRAW_SERVER message is expected.
 
-DRAW_SERVER: this command sends the new cards that client asked for.
+DRAW_SERVER: this command sends the new cards that client asked for and number of cards server swaped.
 
 SHOWNDOWN: after this command both hands are shown and bet money is distributed.
 
