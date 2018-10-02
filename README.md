@@ -55,16 +55,16 @@ Command Syntax
    DEALER:       DEAL<SP>'0'|'1'        
    HAND:         HAND<SP><CARD><SP><CARD><SP><CARD><SP><CARD><SP><CARD>        
    PASS:         PASS        
-   BET:          BET_<SP><INT> 
-   RISE:         RISE<SP><INT> 
+   BET:          BET_<SP><INT>
+   RISE:         RISE<SP><INT>
    CALL:         CALL        
    FOLD:         FOLD
    DRAW:         DRAW<SP><INT><SP><CARD><SP><CARD>...
    DRAW_SERVER:  DRWS<SP><CARD><SP>CARD><SP>...<INT>
-   SHOWNDOWN:    SHOW<SP><CARD><SP><CARD><SP><CARD><SP><CARD><SP><CARD>        
+   SHOWNDOWN:    SHOW<SP><CARD><SP><CARD><SP><CARD><SP><CARD><SP><CARD>
    
-   <SP> ::= ' ' Space character  
-   <INT> ::= integer positive number. 
+   <SP> ::= ' ' Space character
+   <INT> ::= integer positive number.
    <CARD> ::= <RANK><SUIT>
    RANKS: 'A' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | 10' | 'J' | 'Q' | 'K'
    SUITS: spades: 'S' | hearths: 'H' | clubs: 'C' | diamonds: 'D'
