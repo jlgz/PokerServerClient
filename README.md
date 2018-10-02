@@ -67,8 +67,8 @@ Command Syntax
  
    RISE:         RISE<SP><INT>
  
-   CALL:         CAL
-   L        
+   CALL:         CALL
+   
    FOLD:         FOLD
    
    DRAW:         DRAW<SP><INT><SP><CARD><SP><CARD>...
@@ -77,61 +77,106 @@ Command Syntax
  
    SHOWNDOWN:    SHOW<SP><CARD><SP><CARD><SP><CARD><SP><CARD><SP><CARD>
    
-   <SP> ::= ' ' Space character
+<SP> ::= ' ' Space character
  
-   <INT> ::= integer positive number.
+<INT> ::= integer positive number.
+
+<CARD> ::= <RANK><SUIT>
  
-   <CARD> ::= <RANK><SUIT>
- 
-   RANKS: 'A' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | 10' | 'J' | 'Q' | 'K'
-   
-   SUITS: spades: 'S' | hearths: 'H' | clubs: 'C' | diamonds: 'D'
-   
+RANKS: 'A' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9' | 10' | 'J' | 'Q' | 'K'
+
+SUITS: spades: 'S' | hearths: 'H' | clubs: 'C' | diamonds: 'D'
+
 FLUX EXAMPLE:
 
 C: strt 234
+
 S: ante 30
+
 S: stks 500 500
+
 C: anok
+
 S: deal 1
+
 S: HAND 3D 2S JH 7H QD
+
 S: pass
+
 C: bet_ 40
+
 S: fold
+
 S: stks 530 470
+
 C: anok
+
 S: deal 0
+
 S: HAND 2C AC 5D KC 6C
+
 C: pass
+
 S: pass
+
 C: draw '2' 2c 5d
+
 S: drws 9C JD 4
+
 C: pass
+
 S: pass
+
 S: show 4C 3H 4S 4H 9H
+
 S: stks 500 500
+
 C: anok
+
 S: deal 1
+
 S: HAND 3S 9C JC 10H 3C
+
 S: bet_ 74
+
 C: call
+
 C: draw '2' 3s jc
+
 S: drws 4H QH 3
+
 S: pass
+
 C: pass
+
 S: show JD AD 10C QD AC
+
 S: stks 396 604
+
 C: anok
+
 S: deal 0
+
 S: HAND 3C 8D QC 7D 4D
+
 C: bet_ 40
+
 S: rise 89
+
 C: call
+
 C: draw '2' 3c qc
+
 S: drws AC QS 2
+
 C: bet_ 40
+
 S: call
+
 S: show 5H 10C 2S JD 3D
+
 S: stks 595 405
+
 C: anok
+
 ...
